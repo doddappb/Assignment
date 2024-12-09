@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",
+      "module": "commonjs",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "moduleResolution": "node",
+      "outDir": "./dist"
+    },
+    "include": [
+      "steps/**/*.ts",
+      "src/support/world.ts",
+      "features/**/*.feature"
+    ]
+  }
+  
